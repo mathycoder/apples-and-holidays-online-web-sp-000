@@ -72,8 +72,10 @@ def all_supplies_in_holidays(holiday_hash)
       supplies.each do |item|
         item.split.each do |word|
           if word == "Bbq" 
-          holiday_string += " " + word.upcase   
-          holiday_string += " " + word.capitalize 
+            holiday_string += " " + word.upcase  
+          else
+            holiday_string += " " + word.capitalize 
+          end 
         end 
       end 
       puts holiday_string 
