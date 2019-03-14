@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
         supplies[0] << ","
       end 
       supplies.each do |item|
-        holiday_string += item
+        holiday_string += " " + item
       end 
       puts holiday_string 
     end 
