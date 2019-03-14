@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
      holiday.to_s.split("_").each do |word|
        holiday_string += " " + word.capitalize!
      end 
-     
+     holiday_string += ":"
       if supplies.length == 2 
         supplies[0] << ","
       end 
