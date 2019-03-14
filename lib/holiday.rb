@@ -46,7 +46,7 @@ def all_winter_holiday_supplies(holiday_hash)
     puts supplies 
   
   end 
-  puts holiday_hash[:winter].
+  puts holiday_hash[:winter].values
 end
 
 all_winter_holiday_supplies(holiday_hash)
