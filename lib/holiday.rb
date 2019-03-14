@@ -61,6 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts season.to_s + ":"
     holidays.each do |holiday, supplies|
       holiday_string = "  " + holiday.to_s + ":"
+      supplies
     end 
     
   end 
