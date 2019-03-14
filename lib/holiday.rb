@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supplies|
       holiday_string = "  " + holiday.to_s + ": "
       if supplies.length == 2 
-        supplies[0] >> ","
+        supplies[0] << ","
       end 
       supplies.each do |item|
         holiday_string += item
